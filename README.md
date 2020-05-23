@@ -1,4 +1,4 @@
-# godel-designers-server
+# server for the frontend side
 
 > Development of the server side for the fronted side 
 
