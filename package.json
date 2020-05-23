@@ -1,0 +1,26 @@
+{
+  "name": "godel-designers-server",
+  "version": "1.0.0",
+  "description": "Development of the server side for Godel designers application",
+  "main": "src/service.js",
+  "scripts": {
+    "start": "nodemon $npm_package_main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.godeltech.com:z.pleskatsevich/godel-designers-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pug": "^2.0.4",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

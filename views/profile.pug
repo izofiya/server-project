@@ -1,0 +1,14 @@
+style
+    include ../public/css/style.css
+header.header
+content.container
+  div.profile
+    img.profile-img(src=`/images/${person.imgSrc}`, alt='imagePerson')
+    div.profile-details
+      h1
+        | #{person.firstname} #{person.lastname}
+      h2
+        | #{person.tagline}
+      a.button.button-facebook(href=`${person.facebook}`)
+        | Follow me on Facebook
+        
