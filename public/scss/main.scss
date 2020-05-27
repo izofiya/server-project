@@ -2,13 +2,13 @@
 @import "settings/helpers.scss";
 @import "settings/mixins.scss";
 
-html {
-  box-sizing: border-box;
-}
-
 * {
   margin: 0;
   padding: 0;
+}
+
+html {
+  box-sizing: border-box;
 }
 
 body {
