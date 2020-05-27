@@ -1,16 +1,12 @@
 {
   "name": "server-project",
   "version": "1.0.0",
-  "description": "Development of the server side for Godel designers application",
+  "description": "",
   "main": "service.js",
   "scripts": {
     "start": "nodemon $npm_package_main",
     "build": "cd public/css && cleancss -o main.min.css main.css",
     "start-sass": "sass --watch public/scss/main.scss public/css/main.css"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@gitlab.godeltech.com:z.pleskatsevich/godel-designers-server.git"
   },
   "keywords": [],
   "author": "",
