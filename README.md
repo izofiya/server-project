@@ -1,7 +1,7 @@
-# godel-designers-server
+# server project
 
 > Development of the server side 
-> for Godel designers application
+> for application
 
 ### Technologies Stack
 
