@@ -1,0 +1,63 @@
+@import "settings/variables.scss";
+@import "settings/helpers.scss";
+@import "settings/mixins.scss";
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: $base-font-size;
+}
+
+.header {
+  height: px_to_rem(50px);
+  background-color: $primary-color;
+  color: $color-white;
+  margin-bottom: px_to_rem(40px);
+  @include breakpoints("desktop") {
+    height: px_to_rem(80px);
+    margin-bottom: px_to_rem(60px);
+  }
+}
+
+.container {
+  width: 100%;
+}
+
+.profile-img {
+  text-align: center;
+  width: 30%;
+  border-radius: px_to_rem(10px);
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile-details > * {
+  margin-bottom: px_to_rem(20px);
+}
+
+.button {
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  font-size: px_to_rem(18px);
+  padding: px_to_rem(5px);
+  @include breakpoints("mobile") {
+    font-size: px_to_rem(24px);
+  }
+}
+
+.button-facebook {
+  color: $color-white;
+  background-color: $secondary-color;
+  border-radius: px_to_rem(5px);
+}

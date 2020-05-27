@@ -1,6 +1,7 @@
-# server for the frontend side
+# godel-designers-server
 
-> Development of the server side for the fronted side 
+> Development of the server side 
+> for Godel designers application
 
 ### Technologies Stack
 

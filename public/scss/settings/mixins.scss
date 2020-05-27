@@ -1,0 +1,15 @@
+@mixin breakpoints($width: "tablet") {
+    @if ($width == "tablet") {
+      @media (min-width: 768px) {
+        @content
+      }
+    } @else if ($width == "desktop") {
+      @media (min-width: 1260px) {
+        @content
+      }
+    } @else if ($width == "mobile") {
+      @media (min-width: 600px) {
+        @content
+      }
+    }
+  }

@@ -1,9 +1,9 @@
 style
-    include ../public/css/style.css
+    include ../public/css/main.css
 header.header
 content.container
   div.profile
-    img.profile-img(src=`/images/${person.imgSrc}`, alt='imagePerson')
+    img.profile-img(src=`/static/assets/images/${person.imgSrc}`, alt='imagePerson')
     div.profile-details
       h1
         | #{person.firstname} #{person.lastname}
