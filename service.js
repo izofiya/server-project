@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
-
+const os = require("os")
 const logger = require("./src/services/logger");
 const service = express();
 
@@ -11,7 +11,7 @@ service.use(bodyParser.json())
 service.use("/static", express.static(path.join(__dirname, "public")));
 service.set("views", path.join(__dirname, "views"));
 service.set("view engine", "pug");
-
+console.log(os);
 service.get("/profile", (req, res) => {
   const person = {
     firstname: "Ivan",
